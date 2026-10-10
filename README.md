@@ -6,7 +6,7 @@
 |---|---|---|
 | ![Detection, pose and sidewalk candidates](examples/000000313588-combined.jpg) | ![Night traffic-light detections](examples/000000008762-combined.jpg) | ![Rainy street detections](examples/000000084170-combined.jpg) |
 
-**Videos:** [Original 50-second film](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/detections-100-images.mp4) · [30-second vertical cut](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/ai-vision-tiktok-30s-silent.mp4)
+**Videos:** [Watch the 30-second TikTok with music](https://www.tiktok.com/@e.nsan/video/7694919798202928391) · [Original 50-second film](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/detections-100-images.mp4) · [30-second vertical download (silent)](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/ai-vision-tiktok-30s-silent.mp4)
 
 **Topics:** `computer-vision` `yolo26` `object-detection` `object-tracking` `ocr` `python` `pytorch` `open-source`
 
@@ -133,15 +133,17 @@ Photo attribution and original license: see [ATTRIBUTION.md](ATTRIBUTION.md), im
 
 ## TikTok edition
 
-Title: **100 Images. One AI. — AI Vision**
+[**Watch the published TikTok — 30-second AI Vision cut**](https://www.tiktok.com/@e.nsan/video/7694919798202928391)
+
+Suggested title: **100 Images. One AI. — AI Vision**
 
 The original 50-second landscape film is preserved. The separate TikTok cut is exactly 30 seconds, 720×1280 (9:16), with all 100 images sped up to 0.3 seconds each. Full-frame blurred image backgrounds replace the old black margins, while the complete foreground image and model overlays remain visible. This is presentation editing, not faster model inference.
 
-Caption:
+Suggested caption and hashtags:
 
 > 100 images. One AI. 👁️ Built a local vision engine with YOLO26, object tracking, OCR, pose and depth. Tested 100 licensed internet images + 600 blur/noise variants. No camera used. Code & results: https://github.com/Up-to-code/ai-vision-engine — AGPL-3.0 code; images/models keep their own licenses. #AIVision #ComputerVision #YOLO #Python #OpenSource #BuildInPublic
 
-Music for the TikTok upload: **Funky Disco Groove — Gizmo Gadget Guy**, downloaded from TikTok Studio's royalty-free sound library, chosen for a disco feel similar to the reference. The reference uses a Stayin' Alive sound credited to konsalyrics. The GitHub vertical download is silent; the music-bearing edit is for the TikTok post. The raw track is not included or relicensed as project code.
+Music for the TikTok post: **Stayin Alive — Bee Gees**, selected as a 30-second sound in TikTok's native editor to match the reference's disco feel. The embedded alternate soundtrack was muted before saving the TikTok edit. The reference uses a Stayin' Alive sound credited to konsalyrics. A separate local alternate edit uses **Funky Disco Groove — Gizmo Gadget Guy** from TikTok Studio's royalty-free sound library. The GitHub vertical download is silent; TikTok music is not included or relicensed as project code.
 
 Recreate the silent portrait cut from an extracted analysis archive:
 
