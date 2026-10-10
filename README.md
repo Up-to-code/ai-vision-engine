@@ -1,4 +1,14 @@
-# AI Vision
+# AI Vision — 100 Images. One AI.
+
+**Object detection · Tracking · OCR · Pose · Relative depth · Open source**
+
+| Real street perception | Night scene | Rainy scene |
+|---|---|---|
+| ![Detection, pose and sidewalk candidates](examples/000000313588-combined.jpg) | ![Night traffic-light detections](examples/000000008762-combined.jpg) | ![Rainy street detections](examples/000000084170-combined.jpg) |
+
+**Videos:** [Original 50-second film](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/detections-100-images.mp4) · [30-second vertical cut](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/ai-vision-tiktok-30s-silent.mp4)
+
+**Topics:** `computer-vision` `yolo26` `object-detection` `object-tracking` `ocr` `python` `pytorch` `open-source`
 
 A local Python perception engine for images, directories, video, and optional cameras. The first release includes **100 licensed internet images**, actual YOLO26 predictions, a fine-tuning experiment, controlled degradation tests, structured JSON, and a **50-second animated results film**.
 
@@ -120,3 +130,21 @@ Release archives preserve image credits and source-license metadata. Models and 
 ![Detection, pose, and experimental sidewalk overlay](examples/000000313588-combined.jpg)
 
 Photo attribution and original license: see [ATTRIBUTION.md](ATTRIBUTION.md), image `000000313588.jpg`. The displayed model overlay is a derived visualization.
+
+## TikTok edition
+
+Title: **100 Images. One AI. — AI Vision**
+
+The original 50-second landscape film is preserved. The separate TikTok cut is exactly 30 seconds, 720×1280 (9:16), with all 100 images sped up to 0.3 seconds each. Full-frame blurred image backgrounds replace the old black margins, while the complete foreground image and model overlays remain visible. This is presentation editing, not faster model inference.
+
+Caption:
+
+> 100 images. One AI. 👁️ Built a local vision engine with YOLO26, object tracking, OCR, pose and depth. Tested 100 licensed internet images + 600 blur/noise variants. No camera used. Code & results: https://github.com/Up-to-code/ai-vision-engine — AGPL-3.0 code; images/models keep their own licenses. #AIVision #ComputerVision #YOLO #Python #OpenSource #BuildInPublic
+
+Music for the TikTok upload: **Funky Disco Groove — Gizmo Gadget Guy**, downloaded from TikTok Studio's royalty-free sound library, chosen for a disco feel similar to the reference. The reference uses a Stayin' Alive sound credited to konsalyrics. The GitHub vertical download is silent; the music-bearing edit is for the TikTok post. The raw track is not included or relicensed as project code.
+
+Recreate the silent portrait cut from an extracted analysis archive:
+
+```bash
+uv run python -m ai_vision.social_video --source outputs/full-perception --output outputs/ai-vision-tiktok-30s.mp4
+```
