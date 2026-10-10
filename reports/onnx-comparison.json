@@ -1,0 +1,16 @@
+{
+  "models/yolo26n.pt": {
+    "median_ms": 38.51108350499999,
+    "p95_ms": 62.30555559886854,
+    "objects": 147,
+    "images": 20,
+    "disk_bytes": 5544453
+  },
+  "models/yolo26n.onnx": {
+    "median_ms": 23.715708499366883,
+    "p95_ms": 34.03126045013778,
+    "objects": 162,
+    "images": 20,
+    "disk_bytes": 9884243
+  }
+}

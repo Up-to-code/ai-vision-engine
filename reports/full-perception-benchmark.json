@@ -1,0 +1,863 @@
+{
+  "images": 100,
+  "total_seconds": 88.00157950000721,
+  "variants": {
+    "original": {
+      "images": 100,
+      "objects": 699,
+      "median_ms": 819.0838124937727,
+      "p95_ms": 1127.7360080486687
+    }
+  },
+  "classes": {
+    "person": 276,
+    "bench": 6,
+    "bicycle": 17,
+    "car": 138,
+    "bus": 36,
+    "traffic light": 48,
+    "airplane": 5,
+    "truck": 16,
+    "train": 8,
+    "laptop": 1,
+    "backpack": 9,
+    "dog": 4,
+    "clock": 3,
+    "sheep": 2,
+    "umbrella": 12,
+    "cow": 1,
+    "couch": 1,
+    "chair": 9,
+    "potted plant": 6,
+    "vase": 1,
+    "banana": 1,
+    "motorcycle": 27,
+    "skateboard": 3,
+    "baseball glove": 2,
+    "bottle": 3,
+    "dining table": 3,
+    "parking meter": 3,
+    "stop sign": 5,
+    "fire hydrant": 1,
+    "sports ball": 6,
+    "handbag": 5,
+    "tennis racket": 2,
+    "cup": 5,
+    "sandwich": 3,
+    "kite": 11,
+    "teddy bear": 1,
+    "boat": 2,
+    "bird": 12,
+    "suitcase": 5
+  },
+  "peak_rss_mb": 3060.421875,
+  "model_initialization_ms": {
+    "models/yolo26n.pt": 15.837958009797148,
+    "models/yolo26n-pose.pt": 42.05925000132993
+  },
+  "device": "cpu",
+  "model": "models/yolo26n.pt",
+  "note": "Counts and confidence are not accuracy. See holdout validation for AP.",
+  "rows": [
+    {
+      "image": "000000005001.jpg",
+      "variant": "original",
+      "objects": 18,
+      "people": 15,
+      "text_regions": 1,
+      "processing_ms": 7957.446125001297
+    },
+    {
+      "image": "000000006723.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 646.1719170038123
+    },
+    {
+      "image": "000000008762.jpg",
+      "variant": "original",
+      "objects": 6,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 650.815834000241
+    },
+    {
+      "image": "000000013348.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 644.5830419979757
+    },
+    {
+      "image": "000000015517.jpg",
+      "variant": "original",
+      "objects": 9,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 815.7601669954602
+    },
+    {
+      "image": "000000018837.jpg",
+      "variant": "original",
+      "objects": 6,
+      "people": 3,
+      "text_regions": 1,
+      "processing_ms": 922.7627090003807
+    },
+    {
+      "image": "000000032941.jpg",
+      "variant": "original",
+      "objects": 13,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 805.6142499990528
+    },
+    {
+      "image": "000000076547.jpg",
+      "variant": "original",
+      "objects": 6,
+      "people": 1,
+      "text_regions": 5,
+      "processing_ms": 881.4128749945667
+    },
+    {
+      "image": "000000078823.jpg",
+      "variant": "original",
+      "objects": 4,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 836.248916995828
+    },
+    {
+      "image": "000000084170.jpg",
+      "variant": "original",
+      "objects": 4,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 870.4186670074705
+    },
+    {
+      "image": "000000093154.jpg",
+      "variant": "original",
+      "objects": 11,
+      "people": 0,
+      "text_regions": 3,
+      "processing_ms": 641.8827500019688
+    },
+    {
+      "image": "000000094751.jpg",
+      "variant": "original",
+      "objects": 4,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 565.1414170133648
+    },
+    {
+      "image": "000000098392.jpg",
+      "variant": "original",
+      "objects": 10,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 848.6171670083422
+    },
+    {
+      "image": "000000107226.jpg",
+      "variant": "original",
+      "objects": 16,
+      "people": 7,
+      "text_regions": 0,
+      "processing_ms": 870.2374580025207
+    },
+    {
+      "image": "000000109441.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 1003.6891670024488
+    },
+    {
+      "image": "000000114907.jpg",
+      "variant": "original",
+      "objects": 10,
+      "people": 19,
+      "text_regions": 3,
+      "processing_ms": 675.3588749998016
+    },
+    {
+      "image": "000000124277.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 1312.6407500094501
+    },
+    {
+      "image": "000000125778.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 793.8440839934628
+    },
+    {
+      "image": "000000126110.jpg",
+      "variant": "original",
+      "objects": 3,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 423.51049999706447
+    },
+    {
+      "image": "000000128372.jpg",
+      "variant": "original",
+      "objects": 9,
+      "people": 3,
+      "text_regions": 1,
+      "processing_ms": 696.5331669925945
+    },
+    {
+      "image": "000000134886.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 0,
+      "text_regions": 2,
+      "processing_ms": 1006.180750002386
+    },
+    {
+      "image": "000000140203.jpg",
+      "variant": "original",
+      "objects": 6,
+      "people": 3,
+      "text_regions": 2,
+      "processing_ms": 842.5180000049295
+    },
+    {
+      "image": "000000147740.jpg",
+      "variant": "original",
+      "objects": 10,
+      "people": 6,
+      "text_regions": 1,
+      "processing_ms": 836.9458750094054
+    },
+    {
+      "image": "000000154000.jpg",
+      "variant": "original",
+      "objects": 3,
+      "people": 0,
+      "text_regions": 2,
+      "processing_ms": 883.6884999909671
+    },
+    {
+      "image": "000000171382.jpg",
+      "variant": "original",
+      "objects": 22,
+      "people": 8,
+      "text_regions": 0,
+      "processing_ms": 641.2822499987669
+    },
+    {
+      "image": "000000183246.jpg",
+      "variant": "original",
+      "objects": 11,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 602.3729590087896
+    },
+    {
+      "image": "000000183709.jpg",
+      "variant": "original",
+      "objects": 17,
+      "people": 4,
+      "text_regions": 0,
+      "processing_ms": 855.9500410046894
+    },
+    {
+      "image": "000000184400.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 961.7767500021728
+    },
+    {
+      "image": "000000189698.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 658.3890420006355
+    },
+    {
+      "image": "000000191013.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 849.8896250093821
+    },
+    {
+      "image": "000000192670.jpg",
+      "variant": "original",
+      "objects": 11,
+      "people": 7,
+      "text_regions": 0,
+      "processing_ms": 686.409250003635
+    },
+    {
+      "image": "000000213255.jpg",
+      "variant": "original",
+      "objects": 8,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 820.5904999922495
+    },
+    {
+      "image": "000000221754.jpg",
+      "variant": "original",
+      "objects": 8,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 670.1627500005998
+    },
+    {
+      "image": "000000226417.jpg",
+      "variant": "original",
+      "objects": 18,
+      "people": 7,
+      "text_regions": 0,
+      "processing_ms": 521.7125829949509
+    },
+    {
+      "image": "000000227511.jpg",
+      "variant": "original",
+      "objects": 7,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 595.5722079961561
+    },
+    {
+      "image": "000000231508.jpg",
+      "variant": "original",
+      "objects": 10,
+      "people": 3,
+      "text_regions": 0,
+      "processing_ms": 526.6743749962188
+    },
+    {
+      "image": "000000232538.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 826.705250001396
+    },
+    {
+      "image": "000000242287.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 678.7904579978203
+    },
+    {
+      "image": "000000246963.jpg",
+      "variant": "original",
+      "objects": 14,
+      "people": 5,
+      "text_regions": 1,
+      "processing_ms": 704.148292003083
+    },
+    {
+      "image": "000000248284.jpg",
+      "variant": "original",
+      "objects": 3,
+      "people": 2,
+      "text_regions": 0,
+      "processing_ms": 644.4031249993714
+    },
+    {
+      "image": "000000252332.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 899.3365829956019
+    },
+    {
+      "image": "000000253835.jpg",
+      "variant": "original",
+      "objects": 8,
+      "people": 3,
+      "text_regions": 1,
+      "processing_ms": 928.3098750020145
+    },
+    {
+      "image": "000000261982.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 895.898834001855
+    },
+    {
+      "image": "000000280710.jpg",
+      "variant": "original",
+      "objects": 13,
+      "people": 5,
+      "text_regions": 0,
+      "processing_ms": 1150.909749994753
+    },
+    {
+      "image": "000000284725.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 0,
+      "text_regions": 2,
+      "processing_ms": 844.2817920004018
+    },
+    {
+      "image": "000000289222.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 2,
+      "text_regions": 0,
+      "processing_ms": 1204.137708991766
+    },
+    {
+      "image": "000000297147.jpg",
+      "variant": "original",
+      "objects": 3,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 931.8963340047048
+    },
+    {
+      "image": "000000301376.jpg",
+      "variant": "original",
+      "objects": 12,
+      "people": 1,
+      "text_regions": 2,
+      "processing_ms": 555.4091250087367
+    },
+    {
+      "image": "000000313588.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 784.1797080036486
+    },
+    {
+      "image": "000000314251.jpg",
+      "variant": "original",
+      "objects": 12,
+      "people": 3,
+      "text_regions": 0,
+      "processing_ms": 854.9213749938644
+    },
+    {
+      "image": "000000327890.jpg",
+      "variant": "original",
+      "objects": 6,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 874.418915991555
+    },
+    {
+      "image": "000000341921.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 793.363374992623
+    },
+    {
+      "image": "000000342128.jpg",
+      "variant": "original",
+      "objects": 12,
+      "people": 4,
+      "text_regions": 0,
+      "processing_ms": 1126.8855829985114
+    },
+    {
+      "image": "000000343218.jpg",
+      "variant": "original",
+      "objects": 11,
+      "people": 2,
+      "text_regions": 0,
+      "processing_ms": 635.9608329948969
+    },
+    {
+      "image": "000000349860.jpg",
+      "variant": "original",
+      "objects": 4,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 735.2789159922395
+    },
+    {
+      "image": "000000356169.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 822.9588749964023
+    },
+    {
+      "image": "000000356424.jpg",
+      "variant": "original",
+      "objects": 14,
+      "people": 3,
+      "text_regions": 0,
+      "processing_ms": 924.4410829996923
+    },
+    {
+      "image": "000000365655.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 0,
+      "text_regions": 2,
+      "processing_ms": 663.468583006761
+    },
+    {
+      "image": "000000369812.jpg",
+      "variant": "original",
+      "objects": 7,
+      "people": 0,
+      "text_regions": 6,
+      "processing_ms": 1093.6609580094228
+    },
+    {
+      "image": "000000372260.jpg",
+      "variant": "original",
+      "objects": 6,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 713.9578329952201
+    },
+    {
+      "image": "000000374545.jpg",
+      "variant": "original",
+      "objects": 7,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 1020.5694169999333
+    },
+    {
+      "image": "000000377723.jpg",
+      "variant": "original",
+      "objects": 12,
+      "people": 11,
+      "text_regions": 0,
+      "processing_ms": 724.694417003775
+    },
+    {
+      "image": "000000398742.jpg",
+      "variant": "original",
+      "objects": 6,
+      "people": 3,
+      "text_regions": 1,
+      "processing_ms": 732.1847499988507
+    },
+    {
+      "image": "000000399205.jpg",
+      "variant": "original",
+      "objects": 13,
+      "people": 8,
+      "text_regions": 0,
+      "processing_ms": 821.9770830037305
+    },
+    {
+      "image": "000000410712.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 2,
+      "text_regions": 3,
+      "processing_ms": 731.9157910096692
+    },
+    {
+      "image": "000000410880.jpg",
+      "variant": "original",
+      "objects": 3,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 620.5148750013905
+    },
+    {
+      "image": "000000415536.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 839.0075420029461
+    },
+    {
+      "image": "000000423519.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 2,
+      "processing_ms": 846.363584001665
+    },
+    {
+      "image": "000000423798.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 481.129374995362
+    },
+    {
+      "image": "000000426166.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 544.4081250025192
+    },
+    {
+      "image": "000000429109.jpg",
+      "variant": "original",
+      "objects": 14,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 681.9442909909412
+    },
+    {
+      "image": "000000455085.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 645.1737080060411
+    },
+    {
+      "image": "000000458223.jpg",
+      "variant": "original",
+      "objects": 3,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 518.2662919978611
+    },
+    {
+      "image": "000000460229.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 580.0227090076078
+    },
+    {
+      "image": "000000463199.jpg",
+      "variant": "original",
+      "objects": 9,
+      "people": 6,
+      "text_regions": 0,
+      "processing_ms": 940.3392079984769
+    },
+    {
+      "image": "000000467848.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 1,
+      "text_regions": 1,
+      "processing_ms": 1075.4760840063682
+    },
+    {
+      "image": "000000468505.jpg",
+      "variant": "original",
+      "objects": 5,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 917.8795000043465
+    },
+    {
+      "image": "000000469192.jpg",
+      "variant": "original",
+      "objects": 11,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 867.3121669999091
+    },
+    {
+      "image": "000000479030.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 652.9887499928009
+    },
+    {
+      "image": "000000488592.jpg",
+      "variant": "original",
+      "objects": 8,
+      "people": 1,
+      "text_regions": 1,
+      "processing_ms": 891.0586249985499
+    },
+    {
+      "image": "000000495146.jpg",
+      "variant": "original",
+      "objects": 15,
+      "people": 7,
+      "text_regions": 1,
+      "processing_ms": 815.6422500032932
+    },
+    {
+      "image": "000000496854.jpg",
+      "variant": "original",
+      "objects": 9,
+      "people": 5,
+      "text_regions": 0,
+      "processing_ms": 849.8231250123354
+    },
+    {
+      "image": "000000498286.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 807.3787500034086
+    },
+    {
+      "image": "000000499622.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 580.5332499876386
+    },
+    {
+      "image": "000000511076.jpg",
+      "variant": "original",
+      "objects": 15,
+      "people": 1,
+      "text_regions": 0,
+      "processing_ms": 649.1680829931283
+    },
+    {
+      "image": "000000513181.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 647.2898330102907
+    },
+    {
+      "image": "000000514376.jpg",
+      "variant": "original",
+      "objects": 4,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 954.4202909892192
+    },
+    {
+      "image": "000000516143.jpg",
+      "variant": "original",
+      "objects": 2,
+      "people": 0,
+      "text_regions": 9,
+      "processing_ms": 927.5055000034627
+    },
+    {
+      "image": "000000522940.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 3,
+      "processing_ms": 993.0070830014301
+    },
+    {
+      "image": "000000526728.jpg",
+      "variant": "original",
+      "objects": 8,
+      "people": 2,
+      "text_regions": 0,
+      "processing_ms": 608.1859169935342
+    },
+    {
+      "image": "000000538364.jpg",
+      "variant": "original",
+      "objects": 12,
+      "people": 4,
+      "text_regions": 2,
+      "processing_ms": 884.0630420017987
+    },
+    {
+      "image": "000000540414.jpg",
+      "variant": "original",
+      "objects": 18,
+      "people": 11,
+      "text_regions": 0,
+      "processing_ms": 817.5771249952959
+    },
+    {
+      "image": "000000542625.jpg",
+      "variant": "original",
+      "objects": 9,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 946.0864170105197
+    },
+    {
+      "image": "000000550084.jpg",
+      "variant": "original",
+      "objects": 0,
+      "people": 0,
+      "text_regions": 2,
+      "processing_ms": 672.7180000016233
+    },
+    {
+      "image": "000000565563.jpg",
+      "variant": "original",
+      "objects": 7,
+      "people": 0,
+      "text_regions": 2,
+      "processing_ms": 831.8087499937974
+    },
+    {
+      "image": "000000566758.jpg",
+      "variant": "original",
+      "objects": 1,
+      "people": 0,
+      "text_regions": 1,
+      "processing_ms": 892.6881660008803
+    },
+    {
+      "image": "000000571857.jpg",
+      "variant": "original",
+      "objects": 4,
+      "people": 2,
+      "text_regions": 0,
+      "processing_ms": 659.2119999986608
+    },
+    {
+      "image": "000000574702.jpg",
+      "variant": "original",
+      "objects": 13,
+      "people": 3,
+      "text_regions": 1,
+      "processing_ms": 555.9272919927025
+    },
+    {
+      "image": "000000577932.jpg",
+      "variant": "original",
+      "objects": 14,
+      "people": 4,
+      "text_regions": 0,
+      "processing_ms": 1143.8940840016585
+    },
+    {
+      "image": "000000577976.jpg",
+      "variant": "original",
+      "objects": 4,
+      "people": 0,
+      "text_regions": 0,
+      "processing_ms": 854.0471660089679
+    }
+  ]
+}

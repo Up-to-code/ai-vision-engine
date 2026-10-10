@@ -1,0 +1,143 @@
+{
+  "timestamp": "2026-10-10T05:57:55.786252Z",
+  "source": "000000008762.jpg:original",
+  "frame_id": 0,
+  "objects": [
+    {
+      "class_name": "traffic light",
+      "class_id": 9,
+      "confidence": 0.7351916432380676,
+      "bbox": [
+        165.35653686523438,
+        105.02204132080078,
+        186.2198486328125,
+        144.8187255859375
+      ],
+      "center": [
+        175.78819274902344,
+        124.92038345336914
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "traffic light",
+      "class_id": 9,
+      "confidence": 0.718477189540863,
+      "bbox": [
+        57.85329055786133,
+        84.0821533203125,
+        78.88044738769531,
+        146.42208862304688
+      ],
+      "center": [
+        68.36686897277832,
+        115.25212097167969
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "traffic light",
+      "class_id": 9,
+      "confidence": 0.5467745661735535,
+      "bbox": [
+        86.76642608642578,
+        102.76510620117188,
+        106.44445037841797,
+        126.525390625
+      ],
+      "center": [
+        96.60543823242188,
+        114.64524841308594
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "traffic light",
+      "class_id": 9,
+      "confidence": 0.4542001485824585,
+      "bbox": [
+        503.40478515625,
+        229.575439453125,
+        516.74755859375,
+        244.49111938476562
+      ],
+      "center": [
+        510.076171875,
+        237.0332794189453
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "traffic light",
+      "class_id": 9,
+      "confidence": 0.35446906089782715,
+      "bbox": [
+        493.6829833984375,
+        179.1439666748047,
+        515.9812622070312,
+        221.3914337158203
+      ],
+      "center": [
+        504.8321228027344,
+        200.2677001953125
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "traffic light",
+      "class_id": 9,
+      "confidence": 0.3183617889881134,
+      "bbox": [
+        20.917430877685547,
+        261.23492431640625,
+        28.683635711669922,
+        272.07806396484375
+      ],
+      "center": [
+        24.800533294677734,
+        266.656494140625
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    }
+  ],
+  "text_regions": [],
+  "people": [],
+  "faces": [],
+  "scene": {
+    "road_visible": true,
+    "sidewalk_visible": false,
+    "candidate_walkable_fraction": 0.0,
+    "warning": "Experimental image regions, no metric safety or trajectory"
+  },
+  "modules": {
+    "objects": "enabled",
+    "ocr": "enabled",
+    "pose": "enabled",
+    "face": "enabled",
+    "depth": "enabled",
+    "segmentation": "enabled"
+  },
+  "models": {
+    "detector": "models/yolo26n.pt",
+    "ultralytics": "8.4.175",
+    "ocr": "EasyOCR/en",
+    "pose": "yolo26n-pose.pt",
+    "face": "models/face_landmarker.task",
+    "depth": "depth-anything/Depth-Anything-V2-Small-hf",
+    "segmentation": "nvidia/segformer-b0-finetuned-cityscapes-1024-1024"
+  },
+  "processing_ms": 650.815834000241,
+  "events": {}
+}

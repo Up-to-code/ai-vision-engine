@@ -1,0 +1,10 @@
+model: models/yolo26n.pt
+device: auto
+confidence: 0.25
+image_size: 640
+ocr: false
+ocr_languages: [en]
+pose: false
+face: false
+depth: false
+segmentation: false

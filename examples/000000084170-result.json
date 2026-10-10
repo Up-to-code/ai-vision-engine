@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-10-10T05:58:01.451071Z",
+  "source": "000000084170.jpg:original",
+  "frame_id": 0,
+  "objects": [
+    {
+      "class_name": "bus",
+      "class_id": 5,
+      "confidence": 0.8974143266677856,
+      "bbox": [
+        215.41673278808594,
+        125.25255584716797,
+        431.0352783203125,
+        348.00830078125
+      ],
+      "center": [
+        323.2260055541992,
+        236.63042831420898
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "car",
+      "class_id": 2,
+      "confidence": 0.8566091656684875,
+      "bbox": [
+        130.2689208984375,
+        260.5308837890625,
+        226.8564453125,
+        328.47637939453125
+      ],
+      "center": [
+        178.56268310546875,
+        294.5036315917969
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "car",
+      "class_id": 2,
+      "confidence": 0.722307026386261,
+      "bbox": [
+        83.10675048828125,
+        262.27227783203125,
+        144.14837646484375,
+        303.82537841796875
+      ],
+      "center": [
+        113.6275634765625,
+        283.048828125
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    },
+    {
+      "class_name": "person",
+      "class_id": 0,
+      "confidence": 0.2572757601737976,
+      "bbox": [
+        255.61788940429688,
+        224.95639038085938,
+        295.3168640136719,
+        263.2420349121094
+      ],
+      "center": [
+        275.4673767089844,
+        244.09921264648438
+      ],
+      "track_id": null,
+      "speed_pixels_per_second": null,
+      "movement": null
+    }
+  ],
+  "text_regions": [],
+  "people": [],
+  "faces": [],
+  "scene": {
+    "road_visible": true,
+    "sidewalk_visible": true,
+    "candidate_walkable_fraction": 0.0032161458333333334,
+    "warning": "Experimental image regions, no metric safety or trajectory"
+  },
+  "modules": {
+    "objects": "enabled",
+    "ocr": "enabled",
+    "pose": "enabled",
+    "face": "enabled",
+    "depth": "enabled",
+    "segmentation": "enabled"
+  },
+  "models": {
+    "detector": "models/yolo26n.pt",
+    "ultralytics": "8.4.175",
+    "ocr": "EasyOCR/en",
+    "pose": "yolo26n-pose.pt",
+    "face": "models/face_landmarker.task",
+    "depth": "depth-anything/Depth-Anything-V2-Small-hf",
+    "segmentation": "nvidia/segformer-b0-finetuned-cityscapes-1024-1024"
+  },
+  "processing_ms": 870.4186670074705,
+  "events": {}
+}
