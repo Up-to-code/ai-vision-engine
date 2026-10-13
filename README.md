@@ -6,7 +6,7 @@
 |---|---|---|
 | ![Detection, pose and sidewalk candidates](examples/000000313588-combined.jpg) | ![Night traffic-light detections](examples/000000008762-combined.jpg) | ![Rainy street detections](examples/000000084170-combined.jpg) |
 
-**Videos:** [Watch the 30-second TikTok with music](https://www.tiktok.com/@e.nsan/video/7694919798202928391) · [Original 50-second film](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/detections-100-images.mp4) · [30-second vertical download (silent)](https://github.com/Up-to-code/ai-vision-engine/releases/download/v0.1.0/ai-vision-tiktok-30s-silent.mp4)
+**Videos:** [Watch the 30-second TikTok with music](https://www.tiktok.com/@e.nsan/video/7694919798202928391) · [Original 50-second film](https://github.com/qentrah/ai-vision-engine/releases/download/v0.1.0/detections-100-images.mp4) · [30-second vertical download (silent)](https://github.com/qentrah/ai-vision-engine/releases/download/v0.1.0/ai-vision-tiktok-30s-silent.mp4)
 
 **Topics:** `computer-vision` `yolo26` `object-detection` `object-tracking` `ocr` `python` `pytorch` `open-source`
 
@@ -125,7 +125,7 @@ Release archives preserve image credits and source-license metadata. Models and 
 
 ## First release downloads
 
-[Download the film, 100-image dataset, analysis archives, and experimental checkpoint](https://github.com/Up-to-code/ai-vision-engine/releases/tag/v0.1.0).
+[Download the film, 100-image dataset, analysis archives, and experimental checkpoint](https://github.com/qentrah/ai-vision-engine/releases/tag/v0.1.0).
 
 ![Detection, pose, and experimental sidewalk overlay](examples/000000313588-combined.jpg)
 
@@ -141,7 +141,7 @@ The original 50-second landscape film is preserved. The separate TikTok cut is e
 
 Suggested caption and hashtags:
 
-> 100 images. One AI. 👁️ Built a local vision engine with YOLO26, object tracking, OCR, pose and depth. Tested 100 licensed internet images + 600 blur/noise variants. No camera used. Code & results: https://github.com/Up-to-code/ai-vision-engine — AGPL-3.0 code; images/models keep their own licenses. #AIVision #ComputerVision #YOLO #Python #OpenSource #BuildInPublic
+> 100 images. One AI. 👁️ Built a local vision engine with YOLO26, object tracking, OCR, pose and depth. Tested 100 licensed internet images + 600 blur/noise variants. No camera used. Code & results: https://github.com/qentrah/ai-vision-engine — AGPL-3.0 code; images/models keep their own licenses. #AIVision #ComputerVision #YOLO #Python #OpenSource #BuildInPublic
 
 Music for the TikTok post: **Stayin Alive — Bee Gees**, selected as a 30-second sound in TikTok's native editor to match the reference's disco feel. The embedded alternate soundtrack was muted before saving the TikTok edit. The reference uses a Stayin' Alive sound credited to konsalyrics. A separate local alternate edit uses **Funky Disco Groove — Gizmo Gadget Guy** from TikTok Studio's royalty-free sound library. The GitHub vertical download is silent; TikTok music is not included or relicensed as project code.
 
@@ -150,3 +150,7 @@ Recreate the silent portrait cut from an extracted analysis archive:
 ```bash
 uv run python -m ai_vision.social_video --source outputs/full-perception --output outputs/ai-vision-tiktok-30s.mp4
 ```
+
+## Project links
+
+[Source](https://github.com/qentrah/ai-vision-engine) · [Issues](https://github.com/qentrah/ai-vision-engine/issues) · [Public project directory](https://github.com/qentrah/.github/blob/main/profile/PROJECTS.md)
